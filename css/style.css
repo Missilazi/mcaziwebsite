@@ -3,17 +3,7 @@ color: #464a4e;
 padding-bottom: 20px;
 }
 
-.header {
-  background-color: #ffffff;
-  margin: 0px;
-  padding: 0px;
-  height: 100vh;
-}
 
-.container.header_container {
-  margin-bottom: 0px;
-  margin-left: 50px;
-}
 
 body {
   font-family: "Raleway", sans-serif;
@@ -23,9 +13,16 @@ body {
   padding: 0px;
 }
 
-.container {
-  flex: 1;
+#header {
+  background-color: hsla(207, 44%, 49%, 0.05);
+  margin-bottom: 0px;
+  padding: 0px;
 }
+
+.container.header_cont  {
+  margin-bottom: 0px;
+}
+
 
 
 .gradient-background {
@@ -73,16 +70,7 @@ h2 {
   border-radius: 50%;
 }
 
-.header {
-  background-color: #ffffff;
-  margin: 0px;
-  padding: 0px;
-  height: 100vh;
-}
 
-.container.header_container {
-  margin: 0px;
-}
 
 .fs-4 {
   color: #3b6e98;
@@ -114,6 +102,7 @@ h2 {
 .container {
   margin-bottom: 2rem;
 }
+
 .lead {
   color: #3b6e98;
   }
